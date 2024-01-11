@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sing in</title>
+</head>
+<body>
+   <div class="w-screen h-full">
+    <div>
+        <!-- bg image in mobiles -->
+        <div style="background-image: url(./assets/ax.jpg);" class= "max-sm:max-w-full max-sm:h-screen max-sm:bg-cover max-sm:bg-no-repeat ">  
+            <div class="absolute w-full md:w-1/2 md:h-screen md:bg-black ">
+                <div class="w-full px-10 py-2 md:py-10 text-white flex flex-row justify-between items-baseline">
+                 <div class="flex flex-row">
+                 <i class="cursor-pointer hover:border hover:bg-blue-950 p-2 fa-solid fa-file-invoice"></i>
+                 <h1 class="px-2">Componey Logo</h1>
+                 </div>
+                 <i class="cursor-pointer hover:border hover:bg-blue-950 p-2 fa-regular fa-circle-dot"></i>
+                </div> 
+                <div class="container mx-auto px-20 ">
+                    <div class="flex flex-col justify-start items-start w-full  text-white ">
+                        <h1 class="md:font-extrabold md:text-xl">Sing in</h1>
+                        <p class="max-sm:text-xs">new to componey? <a class="text-blue-500" href="">Sing Up!</a></p>
+                    </div>
+                    <div class="w-full flex flex-col ">
+                        <button class="max-sm:text-xs my-2 cursor-pointer hover:bg-gray-700 bg-gray-900 text-white rounded-md md:px-6 px-10 py-1">
+                            <i class="fa-brands fa-google"></i>
+                            continue with Google
+                        </button>
+                        <div class=" md:my-3 md:flex md:flex-row md:justify-center md:items-baseline md:text-gray-500 md:font-bold"><span class="h-0.5 w-1/2 bg-gray-500 "></span> <p class="max-sm:hidden md:block">or</p> <span class="h-0.5 w-1/2  bg-gray-500"></span>
+                        </div>
+                       <form action="" class="max-sm:text-xs  my-2 md:my-5 flex flex-col text-white">
+                        <label for="Email">Email</label>
+                        <input class="rounded-md bg-gray-900 border border-gray-600" type="email" name="Email">
+                        <label for="Password">Password</label>
+                        <input class="rounded-md bg-gray-900 border border-gray-600" type="password" name="Password">
+                        <div class="my-2 w-full flex flex-row justify-between items-baseline text-xs">
+                            <div><input type="checkbox" name="Remember" >
+                                <label for="Remember">Remember me</label></div>
+                            <a class="text-blue-500" href="#">Forgot your password?</a>
+                        </div>
+                       </form>
+                       <button class="w-full max-sm:text-sm px-10 py-1 cursor-pointer hover:bg-blue-600 bg-blue-500 rounded-md text-white font-bold">Sing in</button>
+
+                       <div class="max-sm:hidden md:block text-gray-500 items-center w-full my-14 text-center">
+                        <p>○Your componey 2024</p>
+                       </div>
+
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!-- sing in page's items -->
+      
+    </div>
+    <div class="max-sm:hidden sm:hidden md:block md:w-1/2 md:absolute md:right-0 md:overflow-hidden">
+        <img src="./assets/ax.jpg" alt="desert's night" width="100%">
+    </div>
+   </div>
+    
+</body>
+</html>
