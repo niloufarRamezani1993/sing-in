@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     colors:{
       backGRCL :'rgba(19 19 24 / 0.4)',
+      headerBTN : '#0a2744',
+      HeaderBB:'#c7dff7',
     
       blueSingIn :'#0b6bcb',
       whiteFont: {
@@ -19,6 +21,7 @@ module.exports = {
         line:'#32383e',
       },
       orCL : '#9fa6ad',
+      modeBTN :'#32383e'
 
     },
    
