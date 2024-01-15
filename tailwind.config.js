@@ -8,6 +8,7 @@ module.exports = {
       HeaderBB:'#c7dff7',
     
       blueSingIn :'#0b6bcb',
+      blueSingUp : '#4393e4',
       whiteFont: {
        default : '#f0f4f8',
        googleBtn: '#dde7ee',
@@ -28,7 +29,7 @@ module.exports = {
     
     extend: {
       fontFamily:{
-        'sens' : ['Inter']
+        'Inter' : ['Inter']
       }
     },
   },
