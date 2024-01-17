@@ -649,12 +649,12 @@ video {
   height: 2rem;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-9 {
   height: 2.25rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-screen {
@@ -671,6 +671,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .cursor-pointer {
@@ -853,14 +857,14 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -919,6 +923,78 @@ video {
   font-family: "Inter";
 
   src: url(./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:z-20::before {
+  content: var(--tw-content);
+  z-index: 20;
+}
+
+.before\:mr-2::before {
+  content: var(--tw-content);
+  margin-right: 0.5rem;
+}
+
+.before\:h-\[1px\]::before {
+  content: var(--tw-content);
+  height: 1px;
+}
+
+.before\:w-32::before {
+  content: var(--tw-content);
+  width: 8rem;
+}
+
+.before\:bg-orCL::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(159 166 173 / var(--tw-bg-opacity));
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:z-30::after {
+  content: var(--tw-content);
+  z-index: 30;
+}
+
+.after\:ml-2::after {
+  content: var(--tw-content);
+  margin-left: 0.5rem;
+}
+
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
+.after\:h-\[1px\]::after {
+  content: var(--tw-content);
+  height: 1px;
+}
+
+.after\:w-32::after {
+  content: var(--tw-content);
+  width: 8rem;
+}
+
+.after\:bg-orCL::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(159 166 173 / var(--tw-bg-opacity));
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .hover\:border:hover {
@@ -1052,9 +1128,9 @@ video {
     flex-direction: row;
   }
 
-  .lg\:bg-bgBlack-btnBlack {
+  .lg\:bg-borderCl-bg {
     --tw-bg-opacity: 1;
-    background-color: rgb(23 26 28 / var(--tw-bg-opacity));
+    background-color: rgb(11 13 14 / var(--tw-bg-opacity));
   }
 
   .lg\:backdrop-blur-none {

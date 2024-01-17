@@ -9,7 +9,7 @@
 </head>
 <body class="m-0 overflow-hidden box-border">
    <div class="lg:flex lg:flex-row">
-        <div  class="max-lg:w-full max-lg:h-screen transition relative max-lg:z-10 lg:z-0 flex justify-end max-lg:backdrop-blur-md max-lg:bg-backGRCL max-lg:opacity-100 lg:w-1/2 lg:backdrop-blur-none lg:bg-bgBlack-btnBlack">
+        <div  class="max-lg:w-full max-lg:h-screen transition relative max-lg:z-10 lg:z-0 flex justify-end max-lg:backdrop-blur-md max-lg:bg-backGRCL max-lg:opacity-100 lg:w-1/2 lg:backdrop-blur-none lg:bg-borderCl-bg">
             <div class="flex flex-col px-4 w-full min-h-screen   ">
                 <header class="flex flex-row py-6 justify-between  text-whiteFont-default ">
                     <div class="flex flex-row gap-4 items-center">
@@ -19,13 +19,18 @@
                     <button class="flex justify-center items-center w-8 h-8 text-orCL  bg-bgBlack-btnBlack rounded-md border-[0.05px] cursor-pointer px-0.5 "><i class="fa-solid fa-arrows-rotate"></i></button>
                 </header>
                 <main class="mx-auto pt-4 pb-10 flex flex-col gap-4 w-full rounded-md ">
-                    <div class="flex flex-col mb-4 gap-8">
+                    <div class="flex flex-col mb-4 gap-8 ">
                         <div class="flex flex-col gap-2 ">
                             <h3 class="font-semibold tracking-tight leading-8 font-Inter text-2xl  text-whiteFont-default ">Sign in</h3>
                             <p class="text-orCL text-sm leading-5">New to componey? <a class="font-medium text-blueSingUp" href="#">Sign up!</a></p>
                         </div>
                         <button class="items-center flex justify-center font-Inter text-sm font-semibold  leading-5 text-center text-whiteFont-googleBtn border-whiteFont-googleBtn cursor-pointer bg-bgBlack-btnBlack rounded-md h-9"><i class="mr-2 text-xl fa-brands fa-google"></i>  Continue with Google</button>
                     </div>
+<div class="w-full flex flex-row items-center relative text-orCL font-Inter">
+    <div class=" before:content-['']   before:absolute before:w-32 before:h-[1px] before:bg-orCL before:mr-2 before:z-20"></div>
+<p class=" w-full flex-1 text-center">or</p>
+  <div class=" after:content-[''] after:block  after:w-32 after:h-[1px] after:bg-orCL after:ml-2 after:z-30"></div>
+</div>
                 </main>
             </div>
         </div>
