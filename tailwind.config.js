@@ -22,8 +22,8 @@ module.exports = {
         line:'#32383e',
       },
       orCL : '#9fa6ad',
-      modeBTN :'#32383e'
-
+      modeBTN :'#32383e',
+      btnHoverGoogle: "#555e68",
     },
    
     
